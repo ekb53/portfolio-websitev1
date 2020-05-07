@@ -1,0 +1,126 @@
+body {
+  background-color: #22223B;
+}
+
+/* HOME */
+
+main {
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(224, 185, 9);
+}
+
+#landing-image {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+}
+
+#landing-page {
+  /* background-color: blue; */
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+}
+
+.header-section {
+  height: fit-content;
+  text-align: center;
+  z-index: 10;
+}
+
+header {
+  /* background-color: rgb(12, 57, 65); */
+  margin-bottom: .3em;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.bio-blurb {
+  font-style: italic;
+  font-size: 12px;
+  max-width: 35em;
+  margin-bottom: 2em;
+}
+
+nav {
+  /* background-color: #4A4E69; */
+  padding: 1em;
+  text-align: center;
+  height: fit-content;
+}
+
+nav span {
+  /* background-color: purple; */
+  padding: .5em;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: #F2E9E4;
+}
+
+a:visited {
+  color: #C9ADA7;
+}
+
+a:hover {
+  color: #9A8C98;
+}
+
+/* EXPERIENCE PAGE */
+
+#experience-page {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.img {
+  width: 100%;
+  height: 100%
+}
+
+.imgsection {
+  height: 100%;
+  width: 100%;
+}
+
+.experience-text {
+  text-align: center;
+  margin: 4em;
+  padding-top: 2em;
+}
+
+/* WORK PAGE */
+
+.project-grid {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+  margin-top: 1em;
+}
+
+.project-image {
+  height: 35em;
+  width: 100%;
+}
+
+.project-text {
+  padding: 1em;
+}
+
+/* CONTACT PAGE */
+
+#contact-page {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contact-text {
+  text-align: center;
+  margin: 4em;
+}
