@@ -16,7 +16,6 @@ main {
 }
 
 #landing-page {
-  /* background-color: blue; */
   height: 100vh;
   display: grid;
   justify-content: center;
@@ -29,7 +28,7 @@ main {
 }
 
 header {
-  /* background-color: rgb(12, 57, 65); */
+  background-color: rgb(12, 57, 65);
   margin-bottom: .3em;
   text-transform: uppercase;
   font-size: 40px;
@@ -43,14 +42,12 @@ header {
 }
 
 nav {
-  /* background-color: #4A4E69; */
   padding: 1em;
   text-align: center;
   height: fit-content;
 }
 
 nav span {
-  /* background-color: purple; */
   padding: .5em;
   font-weight: 100;
   text-transform: uppercase;
